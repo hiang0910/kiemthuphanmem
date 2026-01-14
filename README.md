@@ -85,7 +85,11 @@ Chọn Run As → JUnit Test.
 
 Kết quả kiểm thử thực tế:
 
-![Uploading Screenshot 2026-01-14 165552.png…]()
+**Minh chứng kết quả:**
+
+<img width="1044" height="618" alt="Screenshot 2026-01-14 165552" src="https://github.com/user-attachments/assets/7a44c9bd-c7aa-4727-b6b5-683ae525d19f" />
+
+
 
 
 
