@@ -12,9 +12,9 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 
 **Minh chứng kết quả:**
 
-![Kết quả Can't Unsee](<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/b1242eaa-a78c-4be6-a03e-fe8de94d861d" />
-)
-*(Bạn hãy thay link ảnh chụp màn hình kết quả của bạn vào đây)*
+![Kết quả Can't Unsee]<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/b1242eaa-a78c-4be6-a03e-fe8de94d861d" />
+
+
 
 ### 2. Phân tích & Bài học rút ra
 
@@ -85,7 +85,7 @@ Chọn Run As → JUnit Test.
 
 Kết quả kiểm thử thực tế:
 
-![Uploading image.png…]()
+
 
 
 Phân tích kết quả thực hiện:
