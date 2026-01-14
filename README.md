@@ -89,14 +89,14 @@ Tổ chức dự án: Hiểu quy trình tổ chức dự án Java theo cấu tr�
 Kỹ năng công nghệ: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
 ### 3. Cấu trúc thư mục dự án
 
-
+```
 unit-test/
 ├── src/
 │   └── StudentAnalyzer.java
 ├── test/
 │   └── StudentAnalyzerTest.java
 └── README.md
-
+```
 4. Công cụ và công nghệ sử dụng
 Ngôn ngữ: Java JDK 8 trở lên.
 
