@@ -1,93 +1,62 @@
-# BÁO CÁO KẾT QUẢ CHƯƠNG 1
+# BÁO CÁO KẾT QUẢ – CHƯƠNG 1
 
-## 1. Kết quả thực hành trên "Can't Unsee"
-Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát và nhận diện lỗi giao diện (UI) thông qua thử thách đào tạo thị giác.
+## 1. Thực hành kiểm thử UI với **Can't Unsee**
+
+### Mục tiêu
+
+Rèn luyện khả năng quan sát và phát hiện lỗi giao diện (UI) thông qua bài tập đào tạo thị giác.
+
+### Kết quả đạt được
 
 * **Thứ hạng:** PLATINUM (Top 5% người chơi)
 * **Tổng điểm:** 7,730
 * **Thời gian hoàn thành:** 13:20
 
-**Minh chứng kết quả:**
-![Kết quả Can't Unsee]<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/6eb0a47f-197b-4b56-bc90-0c12a3cc470b" />
+### Minh chứng
+![Uploading Screenshot 2026-01-05 144755.png…]()
 
 
 
+### Phân tích & bài học rút ra
 
-### Phân tích & Bài học rút ra
-Việc đạt mức điểm Platinum cho thấy em đã rèn luyện được các kỹ năng kiểm thử giao diện quan trọng:
-* **Kiểm thử Pixel-Perfect:** Phát hiện sự sai lệch về khoảng cách (margin/padding) dù chỉ 1-2 pixel.
-* **Kiểm thử Typography:** Nhận diện sự không đồng nhất về font chữ, độ đậm (weight) và khoảng cách dòng.
-* **Kiểm thử tính nhất quán (Consistency):** Đảm bảo các thành phần giao diện tuân thủ quy tắc thiết kế chung (Design System).
+* **Pixel-Perfect Testing:** Phát hiện sai lệch margin/padding chỉ từ 1–2 pixel.
+* **Typography Testing:** Nhận diện sự không đồng nhất về font, font-weight và line-height.
+* **Consistency Testing:** Kiểm tra tính nhất quán của các thành phần UI theo Design System.
 
 ---
 
-## 2. Bài tập thực hành kiểm thử với JUnit
+## 2. Bài tập kiểm thử đơn vị với **JUnit 5**
 
-**Chủ đề:** Phân tích dữ liệu điểm số học sinh
+### Chủ đề
+
+Phân tích dữ liệu điểm số học sinh bằng Java và kiểm thử đơn vị bằng JUnit.
 
 ### Mô tả bài toán
-Bài tập yêu cầu xây dựng một chương trình Java để phân tích dữ liệu điểm số của học sinh, đồng thời viết các ca kiểm thử đơn vị (unit test) bằng JUnit nhằm đảm bảo tính đúng đắn của chương trình.
 
-Chương trình gồm lớp `StudentAnalyzer` với hai chức năng chính:
-1.  **Đếm số lượng học sinh đạt loại Giỏi:** Dựa trên các tiêu chí điểm số hợp lệ.
-2.  **Tính điểm trung bình:** Chỉ tính trên các giá trị điểm nằm trong khoảng cho phép (0 - 10).
+Xây dựng lớp `StudentAnalyzer` để xử lý dữ liệu điểm số và viết các ca kiểm thử nhằm đảm bảo tính đúng đắn của chương trình.
 
-### Các chức năng chính
+### Chức năng chính
 
-**2.1. countExcellentStudents(List scores)**
-* **Mô tả:** Đếm số học sinh có điểm >= 8.0.
-* **Xử lý logic:** Bỏ qua các điểm không hợp lệ (< 0 hoặc > 10), bỏ qua giá trị `null`. Trả về 0 nếu danh sách rỗng.
+#### 2.1. `countExcellentStudents(List<Double> scores)`
 
-**2.2. calculateValidAverage(List scores)**
-* **Mô tả:** Tính điểm trung bình của các điểm hợp lệ (0–10).
-* **Xử lý logic:** Loại bỏ điểm không hợp lệ và `null`. Trả về 0 nếu không có điểm hợp lệ nào.
-4. Công cụ và công nghệ sử dụng
-Ngôn ngữ: Java JDK 8 trở lên.
+* **Mô tả:** Đếm số học sinh có điểm **>= 8.0**.
+* **Xử lý:**
 
-Thư viện: JUnit 5.
+  * Bỏ qua giá trị `null`.
+  * Bỏ qua điểm không hợp lệ (**< 0** hoặc **> 10**).
+  * Trả về **0** nếu danh sách rỗng hoặc không có điểm hợp lệ.
 
-IDE: Eclipse.
+#### 2.2. `calculateValidAverage(List<Double> scores)`
 
-Quản lý mã nguồn: Git & GitHub.
+* **Mô tả:** Tính điểm trung bình của các điểm hợp lệ trong khoảng **0 – 10**.
+* **Xử lý:**
 
-5. Hướng dẫn chạy kiểm thử đơn vị (JUnit)
-Thao tác trên Eclipse:
+  * Loại bỏ `null` và điểm không hợp lệ.
+  * Trả về **0** nếu không tồn tại điểm hợp lệ.
 
-Mở file StudentAnalyzerTest.java trong thư mục test/.
+---
 
-Chuột phải vào file hoặc vùng soạn thảo code.
-
-Chọn Run As → JUnit Test.
-
-Kết quả kiểm thử thực tế:
-
-Phân tích kết quả thực hiện:
-
-Thanh màu xanh (Green Bar): Toàn bộ 6/6 ca kiểm thử đã vượt qua thành công.
-
-Trạng thái: Không có lỗi (0 Errors) và không có sai biệt (0 Failures).
-
-Các kịch bản đã bao phủ:
-
-NormalCase: Danh sách điểm hỗn hợp.
-
-AllValid: Danh sách toàn điểm hợp lệ.
-
-EmptyList: Danh sách rỗng.
-
-BoundaryValues: Các giá trị biên và giá trị không hợp lệ.
-
-6. Kết luận
-Thông qua bài tập này, em đã nắm vững:
-
-Thiết kế Test Suite: Biết cách xây dựng các bộ kiểm thử bao phủ các trường hợp biên và dữ liệu bất thường.
-
-Sử dụng JUnit 5: Thành thạo việc sử dụng các Assertions để xác minh tính đúng đắn của logic.
-
-Tổ chức dự án: Hiểu quy trình tổ chức dự án Java theo cấu trúc src/test tiêu chuẩn.
-
-Kỹ năng công nghệ: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
-### 3. Cấu trúc thư mục dự án
+## 3. Cấu trúc thư mục dự án
 
 ```
 unit-test/
@@ -97,49 +66,47 @@ unit-test/
 │   └── StudentAnalyzerTest.java
 └── README.md
 ```
-4. Công cụ và công nghệ sử dụng
-Ngôn ngữ: Java JDK 8 trở lên.
 
-Thư viện: JUnit 5.
+---
 
-IDE: Eclipse.
+## 4. Công cụ & công nghệ sử dụng
 
-Quản lý mã nguồn: Git & GitHub.
+* **Ngôn ngữ:** Java (JDK 8+)
+* **Thư viện kiểm thử:** JUnit 5
+* **IDE:** Eclipse
+* **Quản lý mã nguồn:** Git & GitHub
 
-5. Hướng dẫn chạy kiểm thử đơn vị (JUnit)
-Thao tác trên Eclipse:
+---
 
-Mở file StudentAnalyzerTest.java trong thư mục test/.
+## 5. Hướng dẫn chạy kiểm thử (JUnit)
 
-Chuột phải vào file hoặc vùng soạn thảo code.
+Thực hiện trên **Eclipse**:
 
-Chọn Run As → JUnit Test.
+1. Mở file `StudentAnalyzerTest.java` trong thư mục `test/`.
+2. Chuột phải vào file hoặc vùng soạn thảo mã nguồn.
+3. Chọn **Run As → JUnit Test**.
 
-Kết quả kiểm thử thực tế:
+### Kết quả mong đợi
 
-Phân tích kết quả thực hiện:
+* Thanh trạng thái **màu xanh (Green Bar)**.
+* **6/6** ca kiểm thử chạy thành công.
+* **0 Errors**, **0 Failures**.
 
-Thanh màu xanh (Green Bar): Toàn bộ 6/6 ca kiểm thử đã vượt qua thành công.
+### Các kịch bản đã bao phủ
 
-Trạng thái: Không có lỗi (0 Errors) và không có sai biệt (0 Failures).
+* **NormalCase:** Danh sách điểm hỗn hợp.
+* **AllValid:** Tất cả điểm hợp lệ.
+* **EmptyList:** Danh sách rỗng.
+* **BoundaryValues:** Giá trị biên và điểm không hợp lệ.
 
-Các kịch bản đã bao phủ:
+---
 
-NormalCase: Danh sách điểm hỗn hợp.
+## 6. Kết luận
 
-AllValid: Danh sách toàn điểm hợp lệ.
+Thông qua chương này, em đã đạt được:
 
-EmptyList: Danh sách rỗng.
-
-BoundaryValues: Các giá trị biên và giá trị không hợp lệ.
-
-6. Kết luận
-Thông qua bài tập này, em đã nắm vững:
-
-Thiết kế Test Suite: Biết cách xây dựng các bộ kiểm thử bao phủ các trường hợp biên và dữ liệu bất thường.
-
-Sử dụng JUnit 5: Thành thạo việc sử dụng các Assertions để xác minh tính đúng đắn của logic.
-
-Tổ chức dự án: Hiểu quy trình tổ chức dự án Java theo cấu trúc src/test tiêu chuẩn.
-
-Kỹ năng công nghệ: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
+* **Kỹ năng kiểm thử UI:** Nâng cao khả năng phát hiện lỗi giao diện chi tiết.
+* **Thiết kế Test Suite:** Xây dựng bộ kiểm thử bao phủ cả trường hợp biên và dữ liệu bất thường.
+* **Sử dụng JUnit 5:** Thành thạo Assertions và quy trình kiểm thử đơn vị.
+* **Tổ chức dự án:** Hiểu và áp dụng cấu trúc chuẩn `src/test` trong Java.
+* **Kỹ năng công cụ:** Sử dụng Git/GitHub và AI hỗ trợ hiệu quả trong quá trình học tập và phát triển phần mềm.
