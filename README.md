@@ -8,7 +8,8 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 * **Thời gian hoàn thành:** 06:02
 
 **Minh chứng kết quả:**
-![Kết quả Can't Unsee](link_anh_cua_ban_o_day)
+![Kết quả Can't Unsee]
+![Uploading Screenshot 2026-01-05 144755.png…]()
 
 ### Phân tích & Bài học rút ra
 Việc đạt mức điểm Platinum cho thấy em đã rèn luyện được các kỹ năng kiểm thử giao diện quan trọng:
