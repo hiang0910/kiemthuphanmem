@@ -41,10 +41,55 @@ Chương trình gồm lớp `StudentAnalyzer` với hai chức năng chính:
 **2.2. calculateValidAverage(List scores)**
 * **Mô tả:** Tính điểm trung bình của các điểm hợp lệ (0–10).
 * **Xử lý logic:** Loại bỏ điểm không hợp lệ và `null`. Trả về 0 nếu không có điểm hợp lệ nào.
+4. Công cụ và công nghệ sử dụng
+Ngôn ngữ: Java JDK 8 trở lên.
 
+Thư viện: JUnit 5.
+
+IDE: Eclipse.
+
+Quản lý mã nguồn: Git & GitHub.
+
+5. Hướng dẫn chạy kiểm thử đơn vị (JUnit)
+Thao tác trên Eclipse:
+
+Mở file StudentAnalyzerTest.java trong thư mục test/.
+
+Chuột phải vào file hoặc vùng soạn thảo code.
+
+Chọn Run As → JUnit Test.
+
+Kết quả kiểm thử thực tế:
+
+Phân tích kết quả thực hiện:
+
+Thanh màu xanh (Green Bar): Toàn bộ 6/6 ca kiểm thử đã vượt qua thành công.
+
+Trạng thái: Không có lỗi (0 Errors) và không có sai biệt (0 Failures).
+
+Các kịch bản đã bao phủ:
+
+NormalCase: Danh sách điểm hỗn hợp.
+
+AllValid: Danh sách toàn điểm hợp lệ.
+
+EmptyList: Danh sách rỗng.
+
+BoundaryValues: Các giá trị biên và giá trị không hợp lệ.
+
+6. Kết luận
+Thông qua bài tập này, em đã nắm vững:
+
+Thiết kế Test Suite: Biết cách xây dựng các bộ kiểm thử bao phủ các trường hợp biên và dữ liệu bất thường.
+
+Sử dụng JUnit 5: Thành thạo việc sử dụng các Assertions để xác minh tính đúng đắn của logic.
+
+Tổ chức dự án: Hiểu quy trình tổ chức dự án Java theo cấu trúc src/test tiêu chuẩn.
+
+Kỹ năng công nghệ: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
 ### 3. Cấu trúc thư mục dự án
 
-```text
+
 unit-test/
 ├── src/
 │   └── StudentAnalyzer.java
@@ -98,4 +143,3 @@ Sử dụng JUnit 5: Thành thạo việc sử dụng các Assertions để xác
 Tổ chức dự án: Hiểu quy trình tổ chức dự án Java theo cấu trúc src/test tiêu chuẩn.
 
 Kỹ năng công nghệ: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
-
