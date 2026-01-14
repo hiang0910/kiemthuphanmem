@@ -12,7 +12,8 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 
 **Minh chứng kết quả:**
 
-Kết quả Can't Unsee<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/b1242eaa-a78c-4be6-a03e-fe8de94d861d" />
+Kết quả Can't Unsee
+<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/b1242eaa-a78c-4be6-a03e-fe8de94d861d" />
 
 
 
