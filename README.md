@@ -13,6 +13,7 @@ Rèn luyện khả năng quan sát và phát hiện lỗi giao diện (UI) thôn
 * **Thời gian hoàn thành:** 13:20
 
 ### Minh chứng
+**Minh chứng kết quả:**
 ![Kết quả Can't Unsee](![Uploading Screenshot 2026-01-05 144755.png…]()
 )
 
