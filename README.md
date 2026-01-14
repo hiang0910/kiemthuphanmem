@@ -4,8 +4,8 @@
 Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát và nhận diện lỗi giao diện (UI) thông qua thử thách đào tạo thị giác.
 
 * **Thứ hạng:** PLATINUM (Top 5% người chơi)
-* **Tổng điểm:** 7,990
-* **Thời gian hoàn thành:** 06:02
+* **Tổng điểm:** 7,730
+* **Thời gian hoàn thành:** 13:20
 
 **Minh chứng kết quả:**
 ![Kết quả Can't Unsee](![Uploading Screenshot 2026-01-05 144755.png…]()
