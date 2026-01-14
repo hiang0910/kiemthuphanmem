@@ -1,4 +1,4 @@
-<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/6eb0a47f-197b-4b56-bc90-0c12a3cc470b" /># BÁO CÁO KẾT QUẢ CHƯƠNG 1
+# BÁO CÁO KẾT QUẢ CHƯƠNG 1
 
 ## 1. Kết quả thực hành trên "Can't Unsee"
 Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát và nhận diện lỗi giao diện (UI) thông qua thử thách đào tạo thị giác.
@@ -8,7 +8,7 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 * **Thời gian hoàn thành:** 13:20
 
 **Minh chứng kết quả:**
-![Kết quả Can't Unsee](![Uploading Screenshot 2026-01-05 144755.png…]()
+![Kết quả Can't Unsee](<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/6eb0a47f-197b-4b56-bc90-0c12a3cc470b" />
 )
 
 
