@@ -15,8 +15,8 @@ Rèn luyện khả năng quan sát và phát hiện lỗi giao diện (UI) thôn
 ### Minh chứng
 **Minh chứng kết quả:**
 ![Kết quả Can't Unsee](![)
-)
-Uploading Screenshot 2026-01-05 144755.png…](
+(Uploading Screenshot 2026-01-05 144755.png…])
+
 
 
 ### Phân tích & bài học rút ra
