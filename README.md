@@ -64,7 +64,7 @@ EmptyList: Danh sách rỗng.
 BoundaryValues: Các giá trị biên và giá trị không hợp lệ.
 6. Kết luận
 Thông qua bài tập này, em đã nắm vững:
-
+ 
 Thiết kế Test Suite: Biết cách xây dựng các bộ kiểm thử bao phủ các trường hợp biên và dữ liệu bất thường.
 Sử dụng JUnit 5: Thành thạo việc sử dụng các Assertions để xác minh tính đúng đắn của logic.
 Tổ chức dự án: Hiểu quy trình tổ chức dự án Java theo cấu trúc src/test tiêu chuẩn.
