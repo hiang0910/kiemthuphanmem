@@ -8,8 +8,8 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 * **Thời gian hoàn thành:** 13:20
 
 **Minh chứng kết quả:**
-![Kết quả Can't Unsee](<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/6eb0a47f-197b-4b56-bc90-0c12a3cc470b" />
-)
+![Kết quả Can't Unsee]<img width="1907" height="960" alt="Screenshot 2026-01-05 144755" src="https://github.com/user-attachments/assets/6eb0a47f-197b-4b56-bc90-0c12a3cc470b" />
+
 
 
 
