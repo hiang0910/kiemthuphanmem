@@ -230,7 +230,4 @@ npx cypress run
 
 © 2026 Developed by Hoang An
 
-````
-
----
 
