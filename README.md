@@ -1,6 +1,4 @@
-Rất tiếc là tôi không thể gửi file đính kèm trực tiếp qua khung chat này để bạn tải về được.
 
-Tuy nhiên, bạn có thể tạo file này **cực nhanh** ngay trong Visual Studio Code của bạn. Dưới đây là nội dung `README.md` mẫu mực và chuyên nghiệp, bạn chỉ cần copy và dán vào là xong.
 
 ### Bước 1: Tạo file và Dán nội dung
 
