@@ -128,18 +128,14 @@ Kỹ năng công nghệ: Biết cách sử dụng Git để quản lý phiên b�
 4.  **Quan trọng:** Bạn cần thay thế các dòng chữ `link_anh_ket_qua_cant_unsee.png` và `link_anh_ket_qua_junit.png` bằng đường dẫn ảnh thực tế mà bạn đã upload lên repository của bạn để hình ảnh hiển thị đúng.
 
 
-
-### Bước 1: Tạo file và Dán nội dung
-
-1. Trong VS Code, tạo file mới tên là `README.md` (nằm ở thư mục ngoài cùng).
-2. Copy toàn bộ nội dung trong khung dưới đây và dán vào file đó:
+## Báo Cáo Kết Quả Chương 3
 
 ````markdown
 # 🚀 Automation Testing with Cypress - SauceDemo
 
 > **Môn học:** Kiểm thử phần mềm
-> **Sinh viên:** [Tên của bạn]
-> **MSSV:** [Mã số sinh viên]
+> **Sinh viên:** Nguyễn Hoàng Ân
+> **MSSV:** BCS230127
 
 ## 📖 Giới thiệu (Overview)
 
@@ -232,18 +228,9 @@ npx cypress run
 
 ---
 
-© 2026 Developed by [Tên của bạn]
+© 2026 Developed by Hoang An
 
 ````
 
 ---
 
-### Bước 2: Lưu và Đẩy lên GitHub
-Sau khi lưu file (`Ctrl + S`), bạn mở Terminal trong VS Code và gõ 3 lệnh này để cập nhật lên nhánh `bai-tap-cypress`:
-
-```bash
-git add README.md
-git commit -m "Them file README huong dan chi tiet"
-git push origin bai-tap-cypress
-
-````
