@@ -72,33 +72,35 @@ _Nhận xét nhanh: Hệ thống phản hồi ổn định, không có lỗi._
 
 #### Kết quả Scenario 2
 
-![Scenario 2 Result](./images/result_scenario_2.png)
+
+![Scenario 2 Result] <img width="1512" height="852" alt="Screenshot 2026-01-21 134444" src="https://github.com/user-attachments/assets/c2cefe16-b5c4-4d4a-a91b-babcbb1b24d6" />
 _(Chèn ảnh screenshot Summary Report của kịch bản 2 vào đây)_
 
 #### Kết quả Scenario 3
 
-![Scenario 3 Result](./images/result_scenario_3.png)
+![Scenario 3 Result]<img width="1919" height="1020" alt="Screenshot 2026-01-21 134718" src="https://github.com/user-attachments/assets/76e449f3-0753-4ce5-85b3-0cb3fea8b221" />
+
 _(Chèn ảnh screenshot Summary Report của kịch bản 3 vào đây)_
 
 ---
 
 ## 4. Phân tích & Đánh giá
 
-### Về thời gian phản hồi (Response Time):
+Dựa trên số liệu thu thập được:
 
-- **Ở mức tải thấp (Scenario 1):** Tốc độ phản hồi trung bình là **578ms**. Đây là mức [Tốt / Chấp nhận được / Chậm] đối với trải nghiệm người dùng.
-- **Ở mức tải cao (Scenario 2):** Thời gian phản hồi [Tăng nhẹ / Tăng đột biến] lên mức [....]ms.
+### 1. Thời gian phản hồi (Response Time)
+- **Scenario 1 (578ms):** Tốc độ phản hồi ở mức tốt (< 1 giây).
+- **Scenario 2 (810ms):** Khi tăng lên 50 người dùng, thời gian phản hồi trung bình tăng lên nhưng vẫn nằm trong giới hạn chấp nhận được (< 2 giây).
+    - *Lưu ý:* Trang chủ (Homepage) trong kịch bản 2 có độ trễ cao hơn (1292ms) so với trang con (329ms), cho thấy trang chủ có thể chứa nhiều tài nguyên nặng hơn.
+- **Scenario 3 (333ms):** Khi duy trì 20 người dùng liên tục, hệ thống hoạt động rất mượt mà với độ trễ thấp nhất.
 
-### Về tỷ lệ lỗi (Error Rate):
+### 2. Độ ổn định & Tỷ lệ lỗi (Error Rate)
+- **Tỷ lệ lỗi:** **0.00%** trong cả 3 kịch bản.
+- Điều này chứng tỏ server cấu hình tốt, không bị quá tải (Overload) hay từ chối dịch vụ (Denial of Service) ở mức test hiện tại.
 
-- Hệ thống [Hoạt động mượt mà với 0% lỗi / Bắt đầu xuất hiện lỗi 503, 500...] khi số lượng người dùng tăng lên 50.
+### 3. Khả năng xử lý (Throughput)
+- Hệ thống đạt hiệu suất cao nhất ở Scenario 3 với **55.1 yêu cầu/giây**. Đây là con số ấn tượng cho thấy khả năng xử lý đồng thời (concurrency) của server rất tốt với các tác vụ nhẹ.
 
-### Về khả năng xử lý (Throughput):
-
-- Hệ thống xử lý được khoảng [....] yêu cầu/giây ở mức tải cao nhất.
-
-### ➤ Kết luận chung:
-
-Website [Đạt / Không đạt] yêu cầu về hiệu năng cơ bản. Có thể chịu được khoảng [20-50] người dùng cùng lúc mà không bị sập.
-
+### ➤ Kết luận:
+Website hoạt động **Ổn định** và **Đạt yêu cầu** về hiệu năng. Hệ thống có khả năng chịu tải tốt với 50 người dùng đồng thời mà không phát sinh lỗi.
 ---
