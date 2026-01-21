@@ -1,7 +1,7 @@
 # BÁO CÁO KIỂM THỬ HIỆU NĂNG (PERFORMANCE TEST REPORT)
 
-**Dự án:** JMETET
-**Người thực hiện:** NGUYỄN HOÀNG ÂN - BCS230127
+**Dự án:** Jmeter
+**Người thực hiện:** Nguyễn Hoàng Ân - BCS230127
 **Công cụ:** Apache JMeter 5.6.3
 
 ---
