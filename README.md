@@ -1,14 +1,14 @@
 # BÁO CÁO KIỂM THỬ HIỆU NĂNG (PERFORMANCE TEST REPORT)
 
-**Dự án:** [TÊN_DỰ_ÁN_HOẶC_WEBSITE_CỦA_BẠN]
-**Người thực hiện:** [HỌ_TÊN_CỦA_BẠN] - [MÃ_SINH_VIÊN]
+**Dự án:** JMETET
+**Người thực hiện:** NGUYỄN HOÀNG ÂN - BCS230127
 **Công cụ:** Apache JMeter 5.6.3
 
 ---
 
 ## 1. Mục tiêu kiểm thử
 
-Thực hiện kiểm thử hiệu năng đối với website **[Điền URL website tại đây]** nhằm:
+Thực hiện kiểm thử hiệu năng đối với website **https://the-internet.herokuapp.com/** nhằm:
 
 - Đánh giá khả năng chịu tải của hệ thống dưới các mức độ truy cập khác nhau.
 - Đo lường thời gian phản hồi (Response Time) trung bình.
@@ -55,18 +55,19 @@ _Mục đích: Kiểm tra sự ổn định của server khi chạy liên tục 
 | Kịch bản       | Samples (Số mẫu) | Avg Response Time (ms) | Min (ms)  | Max (ms)  | Error Rate (%) | Throughput (req/sec) |
 | :------------- | :--------------: | :--------------------: | :-------: | :-------: | :------------: | :------------------: |
 | **Scenario 1** |        50        |          578           |    312    |   1924    |     0.00%      |         14.8         |
-| **Scenario 2** |    [Điền số]     |       [Điền số]        | [Điền số] | [Điền số] |   [Điền số]%   |      [Điền số]       |
-| **Scenario 3** |    [Điền số]     |       [Điền số]        | [Điền số] | [Điền số] |   [Điền số]%   |      [Điền số]       |
+| **Scenario 2** |        100       |          810           |    308    |   1401    |     0.00%      |         3.2          |
+| **Scenario 3** |        3320      |          333           |    299    |   1395    |   0.00  %      |         55.1         |
 
 _(Lưu ý: Đơn vị thời gian là mili-giây. 1000ms = 1 giây)_
-
+ 
 ---
 
 ### Minh chứng kết quả (Evidence)
 
 #### Kết quả Scenario 1
 
-![Scenario 1 Result](./images/result_scenario_1.png)
+
+![Scenario 1 Result](<img width="1513" height="850" alt="Screenshot 2026-01-21 134029" src="https://github.com/user-attachments/assets/c1418912-3e83-4b3e-8fbc-bbe05e6aac63" />)
 _Nhận xét nhanh: Hệ thống phản hồi ổn định, không có lỗi._
 
 #### Kết quả Scenario 2
