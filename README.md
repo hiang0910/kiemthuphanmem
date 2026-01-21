@@ -67,7 +67,7 @@ _(Lưu ý: Đơn vị thời gian là mili-giây. 1000ms = 1 giây)_
 #### Kết quả Scenario 1
 
 
-![Scenario 1 Result](<img width="1513" height="850" alt="Screenshot 2026-01-21 134029" src="https://github.com/user-attachments/assets/c1418912-3e83-4b3e-8fbc-bbe05e6aac63" />)
+![Scenario 1 Result]<img width="1513" height="850" alt="Screenshot 2026-01-21 134029" src="https://github.com/user-attachments/assets/c1418912-3e83-4b3e-8fbc-bbe05e6aac63" />
 _Nhận xét nhanh: Hệ thống phản hồi ổn định, không có lỗi._
 
 #### Kết quả Scenario 2
